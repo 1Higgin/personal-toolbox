@@ -1,24 +1,17 @@
 {
+  "id": "./",
   "name": "Personal Toolbox",
   "short_name": "Toolbox",
-  "description": "Your ideas, projects, notes and useful tools.",
+  "description": "Your private personal toolbox for ideas, projects, notes and electronics tools.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#101722",
+  "orientation": "portrait",
+  "background_color": "#101a26",
   "theme_color": "#101a26",
   "icons": [
-    {
-      "src": "icons/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icons/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }
